@@ -1,0 +1,39 @@
+shutdown – Desligue o sistema;
+restart – Reinicie o sistema;
+halt – Pare o sistema;
+poweroff – Pare o computador;
+reboot – reinicia o computador;
+wall – Envia uma mensagem como notificação para todos os usuários logados.
+
+Mais algumas argumentos do comando
+Veja abaixo mais algumas argumentos que podem ser usados em conjunto com o comando:
+
+– h:  Desliga o sistema podendo especificar um tempo para a ação;
+– P:  – poweroff: desliga a máquina (por padrão);
+– H:  – halt: Para o sistema;
+– r:   – reboot: reinicia a máquina;
+– k:   Simula o desligamento ou reinício do sistema, apenas enviando mensagens aos usuários;
+– no-wall: Não envia uma mensagem de notificação para parar, desligar e reiniciar;
+– c: Cancela um desligamento pendente. Isso pode ser usado para cancelar o efeito de uma chamada de desligamento com um argumento de tempo que não seja “+ 0” ou “now”. Você também pode adicionar uma mensagem sobre o ocorrido.
+
+Exemplos de aplicação
+Para desligar uma máquina, execute o shutdown da seguinte forma:
+
+
+A opção – h é para interromper, o que significa parar. O segundo parâmetro é o tempo. O “Now” significa literalmente agora, desligue o sistema imediatamente. Como dito anteriormente, o parâmetro time pode ser especificado em minutos ou horas. Por exemplo:
+
+sudo shutdown -h +5 "O sistema será desligado. Por favor, salve seus trabalhos."
+Reiniciar
+O comando shutdown pode ser usado para reiniciar um sistema com o argumento -r em vez do -h. O uso é aplicado da mesma forma. Apenas substitua a opção -h pela opção -r. Veja a seguir:
+
+sudo shutdown -r +5 "O sistema será reiniciado em 5 minutos. Salve seus trabalhos."
+Cancelar operação do comando de desligamento
+Da mesma forma, um desligamento pode ser cancelado chamando o shutdown com o argumento -c.
+
+sudo shutdown -c
+Outros exemplos
+shutdown -r 15:00 "O sistema será reiniciado as 15:00 horas"
+Faz o computador ser reiniciado às 15:00 horas enviando a mensagem. O sistema será reiniciado às 15:00 horas para todos os usuários conectados ao sistema.
+
+shutdown -r 20
+Faz o sistema ser reiniciado após 20 minutos.

@@ -1,0 +1,151 @@
+Os 18 comandos básicos do Ubuntu que todo iniciante precisa aprender:
+
+1. sudo
+O comando sudo (SuperUser DO) permite que você execute programas ou outros comandos com privilégios administrativos, assim como "Executar como administrador" no Windows. Elr é útil quando, por exemplo, você precisa modificar arquivos em um diretório, ao qual seu usuário normalmente não teria acesso.
+
+2. apt-get
+O apt-get é um dos comandos mais importantes do Ubuntu, e que todo iniciante deve conhecer. Ele é usado para instalar, atualizar e remover qualquer pacote. O apt-get funciona basicamente em um banco de dados de pacotes disponíveis. Aqui está a lista de diferentes comandos do apt-get:
+
+sudo apt-get update
+O apt-get update com privilégios de administrador é o primeiro comando que você precisa executar em qualquer sistema Linux após uma nova instalação. Esse comando atualiza o banco de dados e informa ao seu sistema se há pacotes mais novos disponíveis ou não.
+
+sudo apt-get upgrade
+Depois de atualizar o banco de dados do pacote, o próximo passo é atualizar os pacotes instalados. Para atualizar todos os pacotes com atualizações disponíveis, você pode usar este comando.
+
+E se você gosta de atualizar um pacote em particular, você deve ajustar um pouco o comando acima:
+
+sudo apt-get upgrade nome do pacote . Substitua o nome do pacote pelo pacote desejado.
+
+sudo apt-get install
+Conheça o truque que resolve quando a luz da internet no roteador não liga
+Os 10 maiores canais do YouTube
+Se você souber o nome do pacote, poderá instalar facilmente um programa usando este comando:
+
+sudo apt-get install nome do pacote . Substitua o nome do pacote pelo pacote desejado.
+
+Se você não tiver certeza de qual é o nome do pacote, você pode digitar algumas letras e pressionar a guia e ele irá sugerir todos os pacotes disponíveis com essas letras, graças ao recurso de preenchimento automático.
+
+3. ls
+O comando ls (list) lista todos os arquivos e pastas em seu diretório de trabalho atual. Você também pode especificar caminhos para outros diretórios, se quiser ver o conteúdo deles.
+
+4. cd
+O comando cd (change director), também conhecido como chdir, costumava alterar o diretório de trabalho atual. É um dos comandos básicos mais usados â€‹â€‹do Ubuntu. Usar este comando é fácil, basta digitar cd, seguido do nome da pasta. Você pode usar caminhos completos para pastas ou simplesmente o nome de uma pasta dentro do diretório em que você está trabalhando atualmente. Alguns usos comuns são:
+
+cd / - Leva você ao diretório raiz.
+cd .. - Leva você até um nível de diretório.
+cd - - Leva você ao diretório anterior.
+Aqui estão alguns exemplos de como usar o comando cd no Ubuntu:
+
+Exemplo 1: cd home - abra a pasta home no diretório atual.
+
+Exemplo 2: cd Linux Drive - abra a pasta Linux Drive no diretório.
+
+5. pwd
+O comando pwd (print working directory) exibe o caminho completo do diretório de trabalho atual.
+
+6. cp
+O comando cp (copy) permite copiar um arquivo. Você deve especificar tanto o arquivo que deseja copiar quanto o local onde deseja copiá-lo - por exemplo, cp xyz / home / myfiles copia o arquivo " xyz " para o diretório "/ home / myfiles " .
+
+7. mv
+O comando mv (move) permite mover arquivos. Você também pode renomear arquivos, movendo-os para o diretório em que estão atualmente, mas com um novo nome. O uso é o mesmo que cp-f ou exemplo mv xyz / home / myfiles moveria o arquivo " xyz " para o diretório "/ home / myfiles ".
+
+8. rm
+O comando rm (remove) remove o arquivo especificado.
+
+rmdir ("remove directory") - Remove um diretório vazio.
+rm -r ("remove recursively") - Remove um diretório junto com seu conteúdo.
+9. mkdir
+O comando mkdir (make directory) permite que você crie um novo diretório. Você pode especificar onde deseja que o diretório seja criado - se você não fizer isso, ele será criado em seu diretório de trabalho atual.
+
+10. history
+O comando history exibe todos os seus comandos anteriores, até o limite do histórico.
+
+11. df
+O comando df (display filesystem) exibe informações sobre o uso do espaço em disco de todos os sistemas de arquivos montados.
+
+12. du
+O comando du (uso do diretório) exibe o tamanho de um diretório e todos os seus subdiretórios.
+
+13. free
+Este comando exibe a quantidade de espaço livre disponível no sistema.
+
+14. uname -a
+O comando uname -a - fornece uma ampla gama de informações básicas sobre o sistema.
+
+15. top
+O comando top exibe os processos usando a maioria dos recursos do sistema, a qualquer momento. "Q" pode ser usado para sair.
+
+16. man
+O comando man exibe uma "página de manual". As páginas de manual são geralmente muito detalhadas, e é recomendado que você leia as páginas de manual para qualquer comando com o qual não esteja familiarizado. Alguns usos são:
+
+man man - Fornece informações sobre o manual em si.
+man intro - Exibe uma breve introdução aos comandos do Linux.
+Pirate Bay caiu? Veja 12 alternativas para baixar torrents em 2022
+O que é áudio Hi-Res? Conheça o novo áudio em alta resolução
+17. info
+Semelhante ao man, mas geralmente fornece informações mais detalhadas ou precisas.
+
+8. nome do comando> -h ou nome do comando> -help
+Este comando é uma terceira alternativa para obter ajuda. Embora não seja tão detalhado quanto as páginas de informações ou manuais, isso fornecerá uma visão geral rápida do comando e seus usos.
+
+Atalhos do Ubuntu
+Para facilitar ainda mais sua habilidade, esses atalhos de teclado do Ubuntu podem ajudar.
+
+Atalhos	Função
+Ctrl + Shift + T	Abrir nova aba no terminal atual
+Ctrl + Shift + W	Feche a aba atual
+Ctrl + A	Mover o cursor para o início da linha
+Ctrl + E	Mover o cursor para o final da linha
+Ctrl + U	Limpa toda a linha atual
+Ctrl + K	Limpa o comando do cursor para a direita
+Ctrl + W	Excluir a palavra antes do cursor
+Ctrl + R	Permite que você pesquise seu histórico por comandos que correspondam ao que você digitou
+Ctrl + C	Copia o processo atual
+Ctrl + Z	Suspenda o processo atual enviando o sinal SIGSTOP
+Ctrl + L	Limpa a saída do terminal
+Alt + F	Avançar uma palavra
+Alt + B	Retroceder uma palavra
+Ctrl + Shift + C	Copie o comando destacado para a área de transferência
+Ctrl + Shift + V ou Shift + Insert	Cole o conteúdo da área de transferência
+Teclas de seta para cima / baixo	Para percorrer o histórico de comandos, permitindo que você execute rapidamente o mesmo comando várias vezes
+ABA	Usado para completar o comando que você está digitando. Se mais de um comando for possível, você pode pressioná-lo várias vezes para percorrer 
+as conclusões possíveis. Se um número muito grande de comandos for possível, ele pode exibir uma lista de todas as conclusões possíveis.
+
+Atalhos de teclado úteis
+Essa página fornece uma visão geral dos atalhos que podem lhe ajudar a usar seu ambiente e aplicativos de forma mais eficiente. Se você não conseguir 
+usar um mouse ou outro dispositivo de apontamento, veja Navegação do teclado para mais informações sobre navegação em interfaces de usuário com apenas o teclado.
+
+Conhecendo o ambiente
+
+Alt+F1 ou a tecla Super - Alterna entre o panorama de Atividades e a área de trabalho. No panorama, comece a digitar para pesquisar instantaneamente seus aplicativos, 
+						  contatos e documentos.
+
+Alt+F2 - Faz surgir a janela de comando (para executar rapidamente comandos).
+	     Usa as teclas de setas para acessar rapidamente comandos executados previamente.
+
+Super+Tab - Alterna rapidamente entre janelas. Mantenha o Shift pressionado para uma ordem reversa de alternância.
+
+Super+` - Alterna entre janelas do mesmo aplicativo ou do aplicativo selecionado depois após Super+Tab.
+		  Este atalho usa ` em teclados americanos, sendo que a tecla ` está sobre o Tab. Em todos os outros tec	lados, o atalho é Super mais a tecla que estiver sobre o Tab.
+
+Alt+Esc - Alterna rapidamente entre janelas no espaço de trabalho atual. Mantenha o Shift pressionado para uma ordem reversa.
+
+Ctrl+Alt+Tab - Dá ao teclado o foco na barra superior. No panorama de Atividades, alterna o foco do teclado entre a barra superior, o dash, o panorama de janelas, a lista de aplicativos e o campo de pesquisa. Use as teclas de setas para navegar.
+
+Super+A - Mostra a lista de aplicativos.
+
+Super+Page Up e Super+Page Down - Alterna entre espaços de trabalho.
+
+Shift+Super+Page Up e Shift+Super+Page Down - Move a janela atual para um espaço de trabalho diferente.
+
+Shift+Super+← - Move a janela atual um monitor à esquerda.
+
+Shift+Super+→ - Move a janela atual um monitor à esquerda.
+
+Ctrl+Alt+Delete - Mostra o diálogo de desligar.
+
+Super+L - Bloqueia a tela.
+
+Super+V - Mostra a lista de notificação. Pressione Super+V novamente ou Esc para fechar.
+
+Mais comandos Linux: https://www.guru99.com/linux-commands-cheat-sheet.html

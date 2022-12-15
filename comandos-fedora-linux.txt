@@ -1,0 +1,51 @@
+sudo dnf check-update
+atualizar o sistema
+
+sudo dnf upgrade
+atualizar os pacotes instalados
+
+sudo dnf install pacote 
+instalar pacotes
+
+sudo dnf install pacote1 pacote2 
+instalar pacotes
+
+sudo dnf install -y pacote
+instalar pacotes
+
+sudo dnf install pacote.rpm 
+(rpm é o tipo de empacotamento usado no Fedora)
+
+sudo dnf erase pacote ou sudo dnf remove pacote
+remover pacote
+
+
+Procedimento de atualização do Fedora
+Passo 1. Abra um terminal com privilégios de root;
+Passo 2. Depois de logar, confirme a versão do sistema, usando um dos comandos abaixo;
+cat /etc/*-release
+lsb_release -rs
+Passo 3. Atualize o sistema usando o seguinte comando;
+dnf update
+Passo 4. Reinicie o sistema;
+reboot
+Passo 5. Digite o seguinte comando para atualizar o sistema Fedora;
+dnf upgrade
+ou
+dnf upgrade --refresh
+Passo 6. Em seguida, instale plug-in DNF com o comando abaixo;
+dnf install dnf-plugin-system-upgrade
+Passo 7. Finalmente, atualize o Fedora para usando o seguinte comando;
+dnf system-upgrade download --releasever=36
+Passo 8. O DNF começará a buscar os pacotes mais recentes. Isso vai levar muito tempo, dependendo da sua velocidade de conexão Internet.
+Portanto, seja paciente e aguarde até que o sistema mostre a mensagem abaixo (em destaque);
+Como atualizar o Fedora 35 para 36
+Passo 9. Agora reinicie o sistema para continuar com a atualização, usando o comando abaixo;
+dnf system-upgrade reboot
+Passo 10. Na próxima inicialização, serão feitos os últimos procedimentos de atualização;
+Passo 11. Após concluir o processo de atualização, o sistema será reiniciado automaticamente. Durante a inicialização, selecione a opção “Fedora 36”, no menu de inicialização;
+Passo 12. Ao entrar no sistema, abra um terminal e use um dos comandos abaixo para confirmar que o sistema já está na última versão;
+cat /etc/*-release
+lsb_release -rs
+Pronto! O seu sistema já está atualizado e você já pode começar a experimentá-lo.
+
