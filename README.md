@@ -1,2 +1,2 @@
 # linux
-Comandos: Linux
+Repositório com aprendizado e exercícios: Linux
