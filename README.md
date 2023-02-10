@@ -1,2 +1,2 @@
 # linux
-Repositório com aprendizado e exercícios: Linux
+- Repositório com: artigos, aprendizados, exercícios e projetos.
