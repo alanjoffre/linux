@@ -1,4 +1,7 @@
-Os 18 comandos básicos do Ubuntu que todo iniciante precisa aprender:
+Comandos básicos do Ubuntu que todo iniciante precisa aprender:
+
+Ctrl + Shift + C para copiar e Ctrl + Shift + V  para colar
+
 
 1. sudo
 O comando sudo (SuperUser DO) permite que você execute programas ou outros comandos com privilégios administrativos, assim como "Executar como administrador" no Windows. Elr é útil quando, por exemplo, você precisa modificar arquivos em um diretório, ao qual seu usuário normalmente não teria acesso.
